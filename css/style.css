@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1-2{
+	flex-basis: 50%;
+	padding: 30px;
+	width: 50%;
+}
+.col-1-3{
+	flex-basis: 33.33%;
+	padding: 15px;
+}
+.col-1-4{
+	flex-basis: 25%;
+	padding: 15px;
+}
+.align-center{
+	align-items: center;
+}
+.justify-content{
+	justify-content: center;
+}
+
+
+
+header{
+	background-color: #F0FFF0;
+	padding: 31px 0;
+}
+.logo{
+	flex-basis: 30%;
+	padding: 0 30px;
+	width: 30%;
+}
+.logo img{}
+nav{
+	flex-basis: 70%;
+}
+nav ul{
+	justify-content: flex-end;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li:last-child{background-color: #21B573;color: #fff;border-radius: 30px;}
+nav ul li a{
+	color: #56548C;
+	padding: 10px 26px;
+	text-decoration: none;
+	font-weight: 500;
+}
+nav ul li a:hover{}
+
+
+
+
+.banner-section{
+	background-color: #F0FFF0;
+	padding: 50px;
+}
+.banner-content{}
+.banner-content h5{
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-content h1{
+    color: #56548c;
+    font-size: 48px;
+    max-width: 425px;
+}
+.banner-content h1 span{
+    color: #21b573;
+}
+.banner-content p{
+    color: #6C6B6B;
+    font-weight: 500;
+    margin: 20px 0;
+    line-height: 1.9;
+}
+.banner-content a{
+    background-color: #21B573;
+    border-radius: 30px;
+    padding: 12px 36px 12px 36px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+}
+.banner-img{}
+.banner-img img{}
+
+
+
+
+.feature-section{}
+.feature{
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    padding: 42px 0;
+    text-align: center;
+    padding: 50px 20px;
+    transition: all 0.3s ease;
+}
+.feature:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.feature img{}
+.feature h3{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.feature p{
+    color: #585859;
+    font-weight: 400;
+}
+
+
+
+
+.Courses-secion{
+    padding: 50px 0;
+}
+.headding{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.headding h2{
+    color: #413960;
+    font-size: 36px;
+}
+.Courses{background-color: #FFFFFF;box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);border-radius: 18px;padding: 25px 20px;}
+.Courses img{
+    max-width: 100%;
+}
+.Courses h3{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Courses span{
+    color: #585859;
+    font-size: 16px;
+    display: block;
+}
+.Courses button{
+    background-color: #21B573;
+    border-radius: 30px;
+    padding: 12px 36px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin: 20px 0;
+}
+.Courses ul{
+    list-style: none;
+    justify-content: space-between;
+}
+.Courses ul li{}
+.Courses ul li i{}
+.Courses ul li span{}
+
+
+
+.Testimonial-section{}
+.Testimonial-img{
+    /* flex-basis: 120px; */
+}
+.Testimonial-img img{
+    /* max-width: 100%; */
+    /* width: 120px; */
+    padding: 25px;
+    flex-basis: 20%;
+}
+.Testimonial-content{
+    flex-basis: 580px;
+}
+.Testimonial-content p{}
+
+
+
+
+
+footer{
+    background-color: #282531;
+    padding: 55px 0 30px;
+}
+.footer-coloum{
+    flex-basis: 35%;
+}
+.footer-coloum p{
+    width: 370px;
+    color: white;
+}
+.footer-menu{
+    flex-basis: 20%;
+}
+.footer-menu strong{
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+.footer-menu ul{
+    list-style: none;
+}
+.footer-menu ul li{}
+.footer-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.9;
+    display: block;
+}
+.footer-menu ul li a:hover{}
+
+
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    color: #CDCDCD;
+    margin-top: 60px;
+}
+.copyright p{}
